@@ -11,6 +11,16 @@ Stored in `.claude/agents/` — invoke with `@agent-name` or natural language.
 
 ---
 
+## Skills
+
+Stored in `.claude/skills/` — invoke with `/skill-name`.
+
+| Skill | Description | Invoke |
+|-------|-------------|--------|
+| [add-skill](skills/add-skill.md) | Creates a new skill or agent file, registers it in this catalog, commits and pushes. | `/add-skill` |
+
+---
+
 ## Adding a New Agent
 
 1. Create `.claude/agents/<name>.md`
