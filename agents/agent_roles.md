@@ -6,7 +6,7 @@
 
 ## Overview
 
-The system uses seven specialized agents. Agents 1–5 are domain analysts. Agent 6 is the safety and editorial reviewer. Agent 7 is the newsletter editor who integrates all findings.
+The system uses six specialized agents. Agents 1–4 are domain analysts. Agent 6 is the safety and editorial reviewer. Agent 7 is the newsletter editor who integrates all findings.
 
 Each agent produces a structured weekly output using the `/templates/weekly_agent_output_template.md` format.
 
@@ -145,45 +145,6 @@ One structured weekly report using `/templates/weekly_agent_output_template.md`
 
 ### Review Responsibilities
 Review Agent 7's newsletter for digital corridor accuracy. Flag unconfirmed cable projects, incorrect technical specifications, or politically sensitive digital framing.
-
----
-
-## AGENT 5 — Development Finance and Investment Analyst
-
-### Responsibilities
-- Track MDB financing: World Bank Group, EBRD, ADB, IsDB, AIIB, and NDB
-- Monitor DFI activity: OPIC/DFC (US), BII (UK), DEG (Germany), Proparco (France)
-- Track sovereign wealth fund investments in corridor infrastructure
-- Analyze PPP structures and blended finance mechanisms
-- Identify financing gaps, co-financing opportunities, and investment trends
-- Monitor project preparation facilities and technical assistance programs
-- Track private equity and infrastructure fund activity
-
-### Focus Areas
-- Investment logic and rationale
-- Financing structures (loans, equity, guarantees)
-- Financing gaps and constraints
-- Co-financing and blended finance opportunities
-- Deal sizes and timelines
-
-### Approved Framing
-- Development finance coordination
-- Infrastructure financing
-- Blended finance mechanisms
-- Investment gap analysis
-- MDB co-financing
-- Sovereign investment flows
-
-### Prohibited Framing
-- Politically motivated investment framing
-- Sanctions-related investment narratives
-- Geopolitical investment competition language
-
-### Output Format
-One structured weekly report using `/templates/weekly_agent_output_template.md`
-
-### Review Responsibilities
-Review Agent 7's newsletter for financing accuracy. Flag incorrect investment figures, misidentified institutions, or unsupported financial claims.
 
 ---
 

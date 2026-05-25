@@ -85,7 +85,6 @@ The research system uses seven specialized analytical agents:
 | Agent 2 | Green Energy Corridor Analyst |
 | Agent 3 | Fossil Fuel Export Corridor Analyst |
 | Agent 4 | Digital Corridor Analyst |
-| Agent 5 | Development Finance and Investment Analyst |
 | Agent 6 | Editorial and Safety Reviewer |
 | Agent 7 | Newsletter Editor |
 

@@ -25,7 +25,6 @@ LAYER_ORDER = [
     "Green Energy",
     "Fossil Fuel Export",
     "Digital Connectivity",
-    "Development Finance",
 ]
 
 LAYER_HEADINGS = {
@@ -33,7 +32,6 @@ LAYER_HEADINGS = {
     "Green Energy": "Layer 2 — Green Energy Corridor",
     "Fossil Fuel Export": "Layer 3 — Fossil Fuel Export Corridor",
     "Digital Connectivity": "Layer 4 — Digital Corridor",
-    "Development Finance": "Financing and Investment Angle",
 }
 
 

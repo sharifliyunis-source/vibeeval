@@ -80,20 +80,6 @@
 
 ---
 
-## Financing and Investment Angle
-
-[100–150 words. Summarize the most significant development finance or investment development of the week across any corridor layer. Identify the MDB, DFI, or private investor; the deal structure; and the strategic rationale. If no specific financing news this week, provide a brief financing context relevant to one of the layer developments.]
-
-**Key figures:**
-- Institution: [Name]
-- Instrument: [Loan / Equity / Guarantee / Grant]
-- Amount: [USD amount if confirmed]
-- Status: [Approved / Under discussion / Pipeline]
-
-**Source(s):** [Title, Link]
-
----
-
 ## Why It Matters
 
 [100–150 words. Synthesize the week's findings. Explain the cumulative significance of developments across the four layers. Connect to the broader commercial, infrastructure, and development finance trajectory of the corridor. Avoid speculation — focus on confirmed trends and evidence-based implications.]
