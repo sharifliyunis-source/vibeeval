@@ -1,12 +1,12 @@
 # Agent Roles and Responsibilities
 
-## Middle Corridor Brief — Multi-Agent Research System
+## Middle Corridor Intelligence Brief — Multi-Agent Research System
 
 ---
 
 ## Overview
 
-The system uses six specialized agents. Agents 1–4 are domain analysts. Agent 6 is the safety and editorial reviewer. Agent 7 is the newsletter editor who integrates all findings.
+The system uses eight specialized agents. Agents 1–4 are domain analysts. Agent 5 is the dual-level impact analyst covering policy and private sector dimensions. Agent 6 is the safety and editorial reviewer. Agent 7 is the newsletter editor. Agent 8 is the strategic synthesis agent.
 
 Each agent produces a structured weekly output using the `/templates/weekly_agent_output_template.md` format.
 
@@ -148,6 +148,55 @@ Review Agent 7's newsletter for digital corridor accuracy. Flag unconfirmed cabl
 
 ---
 
+## AGENT 5 — Policy and Private Sector Impact Analyst
+
+### Responsibilities
+For every significant development tracked by Agents 1–4, this agent produces two distinct analytical lenses:
+
+**1. State and Policy-Level Analysis**
+- Assess implications for national transport, energy, or digital policy
+- Identify which government ministries, regulatory bodies, or intergovernmental frameworks are most affected
+- Flag treaty, regulatory, or legislative dimensions of the development
+- Identify how the development affects the policy priorities of corridor states (Kazakhstan, Azerbaijan, Georgia, Türkiye) and observer partners (EU, China)
+- Assess whether the development creates new policy coordination requirements or gaps
+
+**2. Private Sector and Commercial Analysis**
+- Assess implications for logistics operators, freight forwarders, port operators, and rail companies
+- Identify investment, procurement, or commercial partnership opportunities
+- Flag which industries or supply chains are most directly affected (automotive, agriculture, chemicals, e-commerce, energy)
+- Assess timing: is this a near-term commercial opportunity or a medium-to-long-term horizon?
+- Identify which private sector actors (operators, investors, financiers) should be monitoring this development
+
+### Output Format Per Development
+```
+Development: [Title]
+
+Policy/State Implication:
+[2–3 sentences. Which governments or institutions are affected? What policy decisions are now more likely or necessary? What regulatory or coordination dimension exists?]
+
+Private Sector Implication:
+[2–3 sentences. Which industries or companies are affected? What commercial opportunity or risk does this create? What is the action horizon — now, 12 months, or 3+ years?]
+```
+
+### Approved Framing
+- Policy coordination
+- Regulatory framework development
+- Commercial opportunity
+- Market access
+- Investment horizon
+- Supply chain adaptation
+
+### Prohibited Framing
+- Geopolitical confrontation
+- Sanctions-related framing
+- Regime or political criticism
+- Military or security implications
+
+### Review Responsibilities
+Review Agent 7's draft for balance between policy and private sector relevance. Flag any issue that speaks only to one audience and ignores the other.
+
+---
+
 ## AGENT 6 — Editorial and Safety Reviewer
 
 ### Responsibilities
@@ -183,24 +232,63 @@ Structured safety review report saved to `/safety_review/` using the following f
 ## AGENT 7 — Newsletter Editor
 
 ### Responsibilities
-- Integrate all domain agent findings into one coherent weekly newsletter
+- Integrate all domain agent findings into one coherent weekly intelligence brief
 - Maintain the central strategic argument throughout the issue
 - Apply the `/templates/newsletter_template.md` structure consistently
-- Ensure smooth narrative flow across all four corridor layers
+- Ensure each corridor section includes both policy and private sector implications from Agent 5
 - Write in executive style: concise, professional, evidence-based
-- Ensure each layer section is proportionate and well-supported
+- Ensure each section is proportionate and well-supported
 - Submit draft to Agent 6 for safety review before finalization
-- Incorporate Agent 6's revisions and produce final version
+- Incorporate Agent 6's revisions and Agent 8's strategic consideration before producing final version
 
 ### Central Argument to Maintain
-> The Middle Corridor is evolving into a multi-layered strategic connectivity platform combining transit and logistics, green energy, fossil fuel export, and digital infrastructure — representing a significant commercial and development opportunity for the Eurasian region.
+> The Middle Corridor is evolving into a multi-layered strategic connectivity platform combining transit and logistics, green energy, fossil fuel export, and digital infrastructure — with distinct and concrete implications for both policymakers and private sector actors.
 
 ### Output Format
-Final newsletter following `/templates/newsletter_template.md`, saved to `/weekly_briefs/`
+Final intelligence brief following `/templates/newsletter_template.md`, saved to `/weekly_briefs/`
 
 ### Quality Standards
 - Executive intelligence brief quality
 - No paragraph exceeds 120 words
-- Each layer section: 100–200 words
+- Each corridor section: 120–200 words including dual-level implications
 - Sources cited throughout
 - Tone: neutral, professional, development-oriented
+- Every section must be actionable for both a policy reader and a commercial reader
+
+---
+
+## AGENT 8 — Strategic Synthesis Agent
+
+### Responsibilities
+- Review the complete draft after all domain agents and Agent 5 have submitted their findings
+- Produce exactly **one** final Strategic Consideration for each issue
+- The Strategic Consideration must synthesize across all four corridor dimensions — not focus on a single layer
+- It must be forward-looking: identifying a trend, tension, or opportunity that emerges from the combined developments of the week
+- It must be relevant to both policymakers and private sector actors
+- It should identify something the reader would not have noticed from any single corridor section alone
+
+### Output Format
+```
+## Strategic Consideration
+
+[Title: one short, declarative sentence]
+
+[Body: 100–150 words maximum. Synthesize the week's developments into one cross-cutting insight. Identify the emerging pattern, the coordination gap, or the strategic opportunity that only becomes visible when all four corridor dimensions are read together. Be concrete. Name actors, timelines, and implications where possible. Do not speculate — ground every claim in the week's confirmed developments.]
+```
+
+### Approved Framing
+- Cross-corridor convergence
+- Structural opportunity
+- Coordination gap
+- Platform maturation
+- Integrated connectivity thesis
+- Compounding infrastructure development
+
+### Prohibited Framing
+- Geopolitical confrontation
+- Great power competition framing
+- Speculative future scenarios without confirmed evidence base
+- Military or security-oriented synthesis
+
+### Review Responsibilities
+Submit the Strategic Consideration to Agent 6 for safety review before inclusion in the final newsletter.

@@ -28,10 +28,10 @@ LAYER_ORDER = [
 ]
 
 LAYER_HEADINGS = {
-    "Transit and Logistics": "Layer 1 — Transit and Logistics",
-    "Green Energy": "Layer 2 — Green Energy Corridor",
-    "Fossil Fuel Export": "Layer 3 — Fossil Fuel Export Corridor",
-    "Digital Connectivity": "Layer 4 — Digital Corridor",
+    "Transit and Logistics": "Transit and Logistics",
+    "Green Energy": "Green Energy Corridor",
+    "Fossil Fuel Export": "Fossil Fuel Export Corridor",
+    "Digital Connectivity": "Digital Corridor",
 }
 
 

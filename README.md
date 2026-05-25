@@ -77,7 +77,7 @@ Each weekly issue is structured as an **executive intelligence brief** resemblin
 
 ## Multi-Agent Workflow
 
-The research system uses seven specialized analytical agents:
+The research system uses eight specialized analytical agents:
 
 | Agent | Specialization |
 |---|---|
@@ -85,8 +85,10 @@ The research system uses seven specialized analytical agents:
 | Agent 2 | Green Energy Corridor Analyst |
 | Agent 3 | Fossil Fuel Export Corridor Analyst |
 | Agent 4 | Digital Corridor Analyst |
+| Agent 5 | Policy and Private Sector Impact Analyst |
 | Agent 6 | Editorial and Safety Reviewer |
 | Agent 7 | Newsletter Editor |
+| Agent 8 | Strategic Synthesis Agent |
 
 Each agent produces structured weekly outputs reviewed by Agent 6 before Agent 7 compiles the final newsletter.
 
